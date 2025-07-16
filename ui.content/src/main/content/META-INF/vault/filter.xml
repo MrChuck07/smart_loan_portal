@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/loanportal" mode="merge"/>
+    <filter root="/content/loanportal" mode="merge"/>
+    <filter root="/content/dam/loanportal" mode="merge">
+        <exclude pattern="/content/dam/loanportal(/.*)?"/>
+        <include pattern="/content/dam/loanportal/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/loanportal/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/loanportal" mode="merge"/>
+</workspaceFilter>
