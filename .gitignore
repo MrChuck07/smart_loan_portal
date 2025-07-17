@@ -1,108 +1,31 @@
-# Created by https://www.gitignore.io/api/eclipse,java,maven
+# Built things
+_Debug/
+Compiled/
 
-### Eclipse ###
-*.pydevproject
-.metadata
-.gradle
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
+# AudioCache can be rebuilt from sources
+AudioCache/
 
-# Eclipse Core
-.project
+# Lockfile
+_OpenInEditor.lock
 
-# External tool builders
-.externalToolBuilders/
+# User settings
+Game.agf.user
+*.crm.user
 
-# Escape dummy_sdk bin folder
-!dispatcher.cloud/test/dummy_sdk/bin
+# Backups
+Game.agf.bak
+backup_acsprset.spr
 
-# Locally stored "Eclipse launch configurations"
-*.launch
+# Memory dumps
+*.dmp
 
-# CDT-specific
-.cproject
-
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
-# Java annotation processor (APT)
-.factorypath
-
-# PDT-specific
-.buildpath
-
-# sbteclipse plugin
-.target
-
-# TeXlipse plugin
-.texlipse
-
-
-### Java ###
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-
-### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-
-
-### Vault ###
-.vlt
-
-
-### IntelliJ ###
-.idea/
-*.iml
-
-
-### Node.js ###
+# Temporary files
+# temporarily created during sprite or room background compression
+~aclzw.tmp
+# temporary, main game data, before getting packed into exe
+game28.dta
+# temporary build of the game before being moved to Compiled/ folder
+*.exe
 
 # Log files
-*.log
-
-# NPM
-node_modules/
-yarn.lock
-
-# Webpack
-build/
-dist/
-actions/common/
-
-# Frontend Maven Plugin
-node/
-
-# Tests
-coverage/
-reports/
-
-# Others
-dispatcher/src/conf.d/variables/default.vars
-ui.tests/test-module/assets/form/themes/**/*diff.png
-ui.tests/test-module/assets/form/themes/**/*current.png
+warnings.log
